@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,27 +25,37 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container-fluid ">
+      
+      <section class="row ">
         <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide col-sm-7 col-12" data-bs-ride="carousel">
 
     <!-- Indicators/dots -->
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
       <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
       <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
     </div>
   
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="la.jpg" alt="Los Angeles" class="d-block w-100">
+        <img src="imagens/taylor.jpeg" alt="Los Angeles" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="chicago.jpg" alt="Chicago" class="d-block w-100">
+        <img src="imagens/livro2.jpeg" alt="Chicago" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="ny.jpg" alt="New York" class="d-block w-100">
+        <img src="imagens/livro3.jpeg" alt="New York" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/livro6.jpeg" alt="New York" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/Inspiração .jpeg" alt="New York" class="d-block w-100">
       </div>
     </div>
   
@@ -56,7 +67,204 @@
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
-    </main>
+  <div class="col-sm-5 col-12">
+    <div class="container p-2 my-4 border">
+      <h1>Porque um ano solitario é o melhor livro do mundo</h1>
+      <p>This container has a border and some extra padding and margins.</p>
+    </div>
     
+    <div class="container p-2 my-4 border">
+      <h1>Traiu ou não traiu? Entenda o drama da literatura brasileria</h1>
+      <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+    </div>
+    
+    <div class="container p-2 my-4 border">
+      <h1>DISPUTA DE GIGANTES: enemies to lovers ou friends to lovers</h1>
+      <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+    </div>
+
+  </div>
+</section>
+<section id="ultimas">
+  <h1>MAIS LIDAS</h1>
+  
+    <div class="row">
+      <div class="card mb-3 col-md-6 col-12" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imagens/quemévocealaska.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Alaska young renasce ai pvfrr</h5>
+              <p class="card-text">A história da jovem que foi tentar sair do labirinto da vida e morreu.</p>
+              <p class="card-text"><small class="text-muted">postado há 2 semanas</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 col-md-6 col-12" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imagens/Alice Oseman .jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Seria alice osman a causa do sofrimento dos jovens?</h5>
+              <p class="card-text">Autora faz jovens adolescentes chorarem por se identificarem até demais com seus personagens</p>
+              <p class="card-text"><small class="text-muted">postado a 3 meses</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 col-md-6 col-12" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imagens/colleen collection.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Será que collen hoover sabe o que é um psicólogo?</h5>
+              <p class="card-text">Autora é acusada de negligenciar saude mental</p>
+              <p class="card-text"><small class="text-muted">postado há um dia</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 col-md-6 col-12" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imagens/teoremaKatherine.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Explicação do porque o teorema katherine é o pior livro ja escrito, por julia fuck</h5>
+              <p class="card-text">O MALUCO TEVE 19 NAMORADAS CHAMADAS KATHERINE</p>
+              <p class="card-text"><small class="text-muted">postado há 1 ano</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 col-md-6 col-12" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imagens/A Garota do Lago.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Garota do lago ou joga o livro no lago?</h5>
+              <p class="card-text">Ta sempre 9 reais na amazon pq não tem outro jeito de vender esse fake suspense</p>
+              <p class="card-text"><small class="text-muted">postado há 8 meses</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 col-md-6 col-12" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imagens/livro8.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">"Um livro sobre um garoto com cancêr, não deve ser tão pesado..."</h5>
+              <p class="card-text">lagrimas</p>
+              <p class="card-text"><small class="text-muted">postado há 5 dias</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<section class="row">
+  <h1 id="importante">IMPORTANTE</h1>
+  <div class="col-md-8 col-12">
+    <div class="container p-2 my-4 border impor">
+      <h1>"Afinal, como sair desse grande labirinto da vida?"</h1>
+      <p>Quem é você, Alasca?</p>
+    </div>
+    <div class="container p-2 my-4 border impor">
+      <h1>"A primeira coisa que nos diz uma obra de arte é que o mundo da liberdade é possível, e isso nos dá força para lutar contra o mundo da opressão."</h1>
+      <p>Vidas Secas, Graciliano Ramos</p>
+    </div>
+    <div class="container p-2 my-4 border impor">
+      <h1>"Todo mundo tem segredos. Todo mundo tem seu silêncio."</h1>
+      <p> Radio Silenco</p>
+    </div>
+    <div class="container p-2 my-4 border impor">
+      <h1>"Palavras na minha não tão humilde opinião são nossa inesgotável fonte de magia."</h1>
+      <p>Harry Potter</p>
+    </div>
+  </div>
+  <div class="col-md-4 impor">
+    <img src="imagens/bienal.png" alt="poster bienal">
+  </div>
+</section>
+    </main>
+    <footer class="text-center text-lg-start  text-muted p-10">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        </section>
+      <section >
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>BOOKSTRAP
+              </h6>
+              <p>
+               jornal de livros para leitores
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                LIVROS
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Fantasia</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Romance</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Suspense</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terror</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Autores
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Alice Oseman</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Graciliano ramos</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">John green</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Suzanna colins</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">CONTATO</h6>
+              <p><i class="fas fa-home me-3"></i> Joinville, SC</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">bookstrap</a>
+      </div>
+    </footer>
 </body>
 </html>
