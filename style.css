@@ -58,6 +58,10 @@ section h1{
 footer{
     background-color: #F2E8D5;
 }
+
+.nav-link:hover{
+    color:#BF8173 ;
+}
 @media (max-width: 500px){
     .impor img{
         display: none;
